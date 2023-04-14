@@ -37,6 +37,8 @@
 }
 
 #downB {
+    margin-left: auto;
+    margin-right: auto;
     background: none;
     border: none;
 }
