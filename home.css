@@ -8,7 +8,7 @@
 
 #myVideo {
     z-index: 0;
-    position: sticky;
+    position: fixed;
     right: 0;
     bottom: 0;
     min-width: 100%;
@@ -16,7 +16,7 @@
 }
 
 .content {
-    position: sticky;
+    position: fixed;
     display: block; 
     width: 100%;
 }
