@@ -17,8 +17,9 @@
 
 .content {
     position: fixed;
-    display: block; 
+    display: inline-block; 
     width: 100%;
+    height: 100%;
 }
 
 #downB {
@@ -34,7 +35,6 @@
     border-radius: 25px;
     background: none;
     transition-duration: 0.5s;
-    bottom: -10px;
 }
 
 #downB:hover {
