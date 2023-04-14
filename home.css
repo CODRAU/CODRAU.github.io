@@ -33,6 +33,7 @@
     height: 50px;
     border-width: 0px;
     border-radius: 25px;
+    bottom: 10px;
     background: none;
     transition-duration: 0.5s;
 }
