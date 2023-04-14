@@ -33,6 +33,8 @@
     border-width: 0px;
     border-radius: 25px;
     background: none;
+    transition-duration: 0.5s;
+    bottom: -10px;
 }
 
 #downB:hover {
