@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .bg-custom {
     /*
     background: rgba(177,13,50, 0.5);
@@ -23,6 +27,7 @@
 }
 
 #downB {
+    position: absolute;
     display: inline-flex;
     justify-content: center;
     align-items: center; 
