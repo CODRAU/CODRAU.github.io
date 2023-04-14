@@ -3,7 +3,7 @@ html {
 }
 
 nav {
-    font-size: 40px;
+    font-size: 250px;
 }
 
 .bg-custom {
@@ -37,6 +37,7 @@ nav {
 }
 
 #downB {
+    cursor: pointer;
     position: absolute;
     display: inline-flex;
     justify-content: center;
@@ -54,6 +55,7 @@ nav {
 }
 
 #downB:hover {
+    cursor: pointer;
     transition-duration: 0.5s;
     background: rgba(255, 255, 255, 0.5);
 }
