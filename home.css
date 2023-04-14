@@ -8,7 +8,7 @@
 
 #myVideo {
     z-index: 0;
-    position: fixed;
+    position: sticky;
     right: 0;
     bottom: 0;
     min-width: 100%;
@@ -16,16 +16,17 @@
 }
 
 .content {
-    position: fixed;
+    position: sticky;
     display: block; 
     width: 100%;
 }
-  
+
 #downB {
+    display: inline-flex;
+    align-items: center; 
     color: white;
     font-size: 40px;
     font-weight: bold;
-    bottom: 10px; 
     width: 50px; 
     height: 50px;
     border-width: 0px;
