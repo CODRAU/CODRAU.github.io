@@ -23,9 +23,9 @@
   
 #downB {
     color: white;
-    margin-right: auto; 
-    margin-left: auto; 
-    bottom: 10px; 
+    font-size: 20px;
+    font-weight: bold;
+    bottom: 5px; 
     width: 50px; 
     height: 50px;
     border-width: 0px;
