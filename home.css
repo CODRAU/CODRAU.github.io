@@ -66,19 +66,19 @@ nav {
     background: rgba(255, 255, 255, 0.5);
 }
 
-.aboutus {
+#aboutus {
     background: #CCDBDC; 
     height: 100vh; 
     width: 100%;
     text-align: center;
 }
 
-.aboutus h1 {
+#aboutus h1 {
     text-align: center;
     color: black;
     background: #B10D32;
 }
 
-.aboutus p {
+#aboutus p {
     color: black;
 }
