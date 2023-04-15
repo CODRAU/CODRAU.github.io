@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Arbutus+Slab');
+
 html {
     scroll-behavior: smooth;
+}
+
+* {
+    font-family: "Arbutus Slab", serif;
 }
 
 nav {
@@ -58,4 +64,22 @@ nav {
     cursor: pointer;
     transition-duration: 0.5s;
     background: rgba(255, 255, 255, 0.5);
+}
+
+.aboutus {
+    background: #CCDBDC; 
+    height: 100vh; 
+    width: 100%;
+    text-align: center;
+}
+
+.aboutus h1{
+    text-align: center;
+    color: black;
+    background: #B10D32;
+}
+
+.aboutus p {
+    color: black;
+
 }
