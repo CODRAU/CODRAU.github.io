@@ -82,3 +82,26 @@ nav {
 #aboutus p {
     color: black;
 }
+
+#upB {
+    cursor: pointer;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center; 
+    font-weight: bold;
+    width: 50px; 
+    height: 50px;
+    border-width: 0px;
+    border-radius: 25px;
+    background: none;
+    transition-duration: 0.5s;
+}
+
+#upB:hover {
+    cursor: pointer;
+    transition-duration: 0.5s;
+    background: rgba(55, 55, 55, 0.5);
+}
