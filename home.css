@@ -94,6 +94,7 @@ nav {
     overflow:hidden;
     white-space:nowrap;
     animation: showup 7s infinite;
+    background-color: #B10D32;
 }
 
 #header2 {
@@ -102,6 +103,7 @@ nav {
     white-space:nowrap;
     width:0px;
     animation: reveal 7s infinite;
+    background-color: #B10D32;
 }
 
 #header2 span {
