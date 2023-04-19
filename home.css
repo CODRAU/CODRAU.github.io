@@ -75,7 +75,7 @@ nav {
     font-size: 100px;
     text-align: center;
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }
 
 #aboutus h1 {
