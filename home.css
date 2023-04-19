@@ -75,6 +75,7 @@ nav {
     font-size:32px;
     text-align: center;
     display: flex;
+    justify-content: center;
 }
 
 #aboutus h1 {
@@ -125,9 +126,9 @@ nav {
 @keyframes reveal {
     0% {opacity:0;width:0px;}
     20% {opacity:1;width:0px;}
-    30% {width:355px;}
+    30% {width:60px;}
     80% {opacity:1;}
-    100% {opacity:0;width:355px;}
+    100% {opacity:0;width:60px;}
 }
 
 #upB {
