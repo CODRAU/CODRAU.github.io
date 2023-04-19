@@ -93,7 +93,7 @@ nav {
     display:inline-block;
     overflow:hidden;
     white-space:nowrap;
-    animation: showup 7s infinite;
+    animation: showup 7s;
     background-color: #B10D32;
     height: fit-content;
     padding-left: 10px;
@@ -104,21 +104,21 @@ nav {
     overflow:hidden;
     white-space:nowrap;
     width:0px;
-    animation: reveal 7s infinite;
+    animation: reveal 7s;
     background-color: #B10D32;
     height: fit-content;
 }
 
 #header2 span {
     margin-left:-355px;
-    animation: slidein 7s infinite;
+    animation: slidein 7s;
 }
 
 @keyframes showup {
     0% {opacity:0;}
     20% {opacity:1;}
     80% {opacity:1;}
-    100% {opacity:0;}
+    100% {opacity:1;}
 }
 
 @keyframes slidein {
@@ -133,7 +133,7 @@ nav {
     20% {opacity:1;width:0px;}
     30% {width:200px;}
     80% {opacity:1;}
-    100% {opacity:0;width:200px;}
+    100% {opacity:1;width:200px;}
 }
 
 #upB {
