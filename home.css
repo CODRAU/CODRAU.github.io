@@ -94,6 +94,7 @@ nav {
     overflow:hidden;
     white-space:nowrap;
     animation: showup 7s;
+    animation-fill-mode: forwards;
     background-color: #B10D32;
     height: fit-content;
     padding-left: 10px;
@@ -105,6 +106,7 @@ nav {
     white-space:nowrap;
     width:0px;
     animation: reveal 7s;
+    animation-fill-mode: forwards;
     background-color: #B10D32;
     height: fit-content;
 }
@@ -112,6 +114,7 @@ nav {
 #header2 span {
     margin-left:-355px;
     animation: slidein 7s;
+    animation-fill-mode: forwards;
 }
 
 @keyframes showup {
