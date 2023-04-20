@@ -70,7 +70,7 @@ nav {
 
 #aboutus {
     /* background: linear-gradient(141deg, #ccc 25%, #eee 40%, #ddd 55%); */
-    background-image: image("space.jpeg");
+    background-image: url("space.jpeg");
     height: 100vh; 
     width: 100%;
     font-size: 100px;
