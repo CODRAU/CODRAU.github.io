@@ -69,7 +69,8 @@ nav {
 }
 
 #aboutus {
-    background: linear-gradient(141deg, #ccc 25%, #eee 40%, #ddd 55%); 
+    /* background: linear-gradient(141deg, #ccc 25%, #eee 40%, #ddd 55%); */
+    background-image: image("space.jpg");
     height: 100vh; 
     width: 100%;
     font-size: 100px;
