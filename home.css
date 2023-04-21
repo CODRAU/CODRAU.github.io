@@ -93,8 +93,10 @@ nav {
     display:inline-block;
     overflow:hidden;
     white-space:nowrap;
+    /*
     animation: showup 7s;
     animation-fill-mode: forwards;
+    */
     background-color: #B10D32;
     height: fit-content;
     padding-left: 10px;
@@ -104,17 +106,22 @@ nav {
     display:inline-block;
     overflow:hidden;
     white-space:nowrap;
+    width: 200px;
+    /*
     width:0px;
     animation: reveal 7s;
     animation-fill-mode: forwards;
+    */
     background-color: #B10D32;
     height: fit-content;
 }
 
 #header2 span {
-    margin-left:-355px;
+    /* margin-left:-355px;
     animation: slidein 7s;
     animation-fill-mode: forwards;
+    */
+    margin-left: 0px;
 }
 
 @keyframes showup {
@@ -160,4 +167,17 @@ nav {
     cursor: pointer;
     transition-duration: 0.5s;
     background: rgba(55, 55, 55, 0.5);
+}
+
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
 }
