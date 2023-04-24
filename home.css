@@ -99,6 +99,7 @@ nav {
     padding-left: 10px;
 }
 
+/*
 #header2 {
     display:inline-block;
     overflow:hidden;
@@ -111,28 +112,7 @@ nav {
 #header2 span {
     margin-left: 0px;
 }
-
-@keyframes showup {
-    0% {opacity:0;}
-    20% {opacity:1;}
-    80% {opacity:1;}
-    100% {opacity:1;}
-}
-
-@keyframes slidein {
-    0% { margin-left:-800px; }
-    20% { margin-left:-800px; }
-    35% { margin-left:0px; }
-    100% { margin-left:0px; }
-}
-
-@keyframes reveal {
-    0% {opacity:0;width:0px;}
-    20% {opacity:1;width:0px;}
-    30% {width:200px;}
-    80% {opacity:1;}
-    100% {opacity:1;width:200px;}
-}
+*/
 
 #upB {
     cursor: pointer;
