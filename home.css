@@ -41,7 +41,7 @@ nav {
     display: inline-block; 
     width: 100%;
     height: 100%;
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4));
+    /* background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)); */
 }
 
 #downB {
@@ -93,10 +93,6 @@ nav {
     display:inline-block;
     overflow:hidden;
     white-space:nowrap;
-    /*
-    animation: showup 7s;
-    animation-fill-mode: forwards;
-    */
     background-color: #B10D32;
     height: fit-content;
     padding-left: 10px;
@@ -107,20 +103,11 @@ nav {
     overflow:hidden;
     white-space:nowrap;
     width: 200px;
-    /*
-    width:0px;
-    animation: reveal 7s;
-    animation-fill-mode: forwards;
-    */
     background-color: #B10D32;
     height: fit-content;
 }
 
 #header2 span {
-    /* margin-left:-355px;
-    animation: slidein 7s;
-    animation-fill-mode: forwards;
-    */
     margin-left: 0px;
 }
 
