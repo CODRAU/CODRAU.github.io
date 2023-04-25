@@ -25,6 +25,7 @@ function downpress() {
 
 //rightpress
 function uppress() {
+    console.log(currIndex + " " + cards[currIndex]);
     if (currIndex != 3) {
         document.getElementById(cards[currIndex]).classList.remove('show');
         currIndex += 1;
