@@ -33,23 +33,25 @@
     <div class="content" id="c" style="display: flex; flex-direction: column;">
       
       <h1 style="text-align: center; font-size: 10vw; color: whitesmoke; margin-top: auto; margin-bottom: auto;">PLANNING OUR TRIPS</h1>
-      <div style="text-align: center;">
-        <button id="downB" onclick="downpress();"><img src="down.png" width="30px" height="auto"></button>
+      <div class="hidden" id="first">
+        hello #1
+      </div>
+      <div class="hidden" id="second">
+        hello #2
+      </div>
+      <div class="hidden" id="third">
+        hello #3
       </div>
     </div>
-    <div class="hidden" id="first">
-      hello #1
-    </div>
-    <div class="hidden" id="second">
-      hello #2
-    </div>
-    <div class="hidden" id="third">
-      hello #3
-    </div>
+  </div>
+
+  <div style="text-align: center;">
+    <button id="downB" onclick="downpress();"><img src="down.png" width="30px" height="auto"></button>
   </div>
   
   <div style="text-align: center; position: fixed">
     <button id="upB" onclick="uppress();"><img src="down.png" width="30px" height="auto" style="rotate: 180deg;"></button>
   </div>
+
 </body>
 </html>
