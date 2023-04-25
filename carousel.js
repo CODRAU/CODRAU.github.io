@@ -10,7 +10,7 @@ const observer = new IntersectionObserver((entries) => {
 const hiddenElements = document.querySelectorAll('.hidden');
 hiddenElements.forEach((el) => observer.observe(el));
 
-var cards = ["content", "first", "second", "third"];
+var cards = ["c", "first", "second", "third"];
 var currIndex = 0;
 
 //leftpress
