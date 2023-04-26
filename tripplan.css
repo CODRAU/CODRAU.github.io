@@ -17,6 +17,11 @@ nav {
     font-size: 20px;
 }
 
+nav ul li {
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
 .bg-custom {
     background: none;
     transition-duration: 0.5s;
@@ -135,7 +140,7 @@ nav {
     font-size: 6.25rem;
     text-align: center;
     display: flex;
-    justify-content: left;  
+    justify-content: center;  
 }
 
 #second {
@@ -147,7 +152,7 @@ nav {
     font-size: 6.25rem;
     text-align: center;
     display: flex;
-    justify-content: left;  
+    justify-content: center;  
 }
 
 #third {
@@ -159,5 +164,5 @@ nav {
     font-size: 6.25rem;
     text-align: center;
     display: flex;
-    justify-content: left;  
+    justify-content: center;  
 }
