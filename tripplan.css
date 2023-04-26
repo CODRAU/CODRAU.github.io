@@ -162,23 +162,3 @@ nav {
     display: flex;
     justify-content: center;  
 }
-
-.headers h1{
-    text-align: center; 
-    font-size: 10vw; 
-    color: whitesmoke; 
-    margin-top: auto; 
-    margin-bottom: auto; 
-    -webkit-text-stroke-width: 3px; 
-    -webkit-text-stroke-color: black;
-}
-
-.headers h2{
-    text-align: center; 
-    font-size: 7vw; 
-    color: whitesmoke; 
-    margin-top: auto; 
-    margin-bottom: auto; 
-    -webkit-text-stroke-width: 3px; 
-    -webkit-text-stroke-color: black;
-}
