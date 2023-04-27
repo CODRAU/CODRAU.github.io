@@ -168,6 +168,9 @@ nav {
     display:inline-block;
     overflow:hidden;
     white-space:nowrap;
+    font-size: 7vw;
+    -webkit-text-stroke-width: 3px; 
+    -webkit-text-stroke-color: black;
     background-color: #f6093e;
     height: fit-content;
     padding-left: 10px;
