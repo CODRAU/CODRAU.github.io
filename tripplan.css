@@ -171,8 +171,8 @@ nav {
     font-size: 7vw;
     -webkit-text-stroke-width: 3px; 
     -webkit-text-stroke-color: black;
-    background-color: #f6093e;
     height: fit-content;
+    color: white;
     padding-left: 10px;
     padding-right: 10px;
 }
