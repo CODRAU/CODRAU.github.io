@@ -163,3 +163,13 @@ nav {
     display: flex;
     justify-content: center;  
 }
+
+#header1 {
+    display:inline-block;
+    overflow:hidden;
+    white-space:nowrap;
+    background-color: #f6093e;
+    height: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+}
