@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Arbutus+Slab');
+@import url('https://fonts.googleapis.com/css?family=Manrope');
 
 html {
     scroll-behavior: smooth;
 }
 
 * {
-    font-family: "Arbutus Slab", serif;
+    font-family: 'Manrope';
 }
 
 #logopage {
