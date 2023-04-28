@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Manrope');
+@import url('https://fonts.googleapis.com/css?family=Space Grotesk');
 
 html {
     scroll-behavior: smooth;
 }
 
 * {
-    font-family: 'Manrope';
+    font-family: 'Space Grotesk';
 }
 
 #logopage {
