@@ -15,7 +15,7 @@
   <div id="logopage">
     <!--navbar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-custom" style="position: absolute; z-index: 10; width: 100%;">
-      <a class="navbar-brand" href="#"><img src="av.png" width="100vw" height="auto"/></a>
+      <a class="navbar-brand" href="#"><img src="av.png" width="90vw" height="auto"/></a>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
@@ -42,11 +42,11 @@
         <div style="display: flex; height: 94vh; position: absolute; top: 6%;">
           <span style="display: flex; height: fit-content; position: relative; top: 6.9%; left: 6.9%; z-index: 1;">
             <div id="header1">TICKETS</div>
-            <img src="ticket.png" width="22%" height="auto" style="position: absolute; left:10%; bottom:35%;"/>
           </span>
           <div style="font-size: 2vw;height: 68%; width: 49%; background: linear-gradient(135deg, hsla(0, 0%, 84%, 1) 0%, hsla(0, 0%, 100%, 1) 47%, hsla(0, 0%, 84%, 1) 100%); position: relative;z-index: 0;top: 140px;left: 40px;display: flex; flex-wrap: wrap; justify-content: center; align-content: center; padding-left: 20px; padding-right: 20px;">
             <p>To start your journey into the stars, go to the "Purchasing a Trip" page in the navigation menu above. You are able to reserve one seat on our advanced ship for $450,000. Since we have such few spots per flight and such a long waiting list, we handle your ticket purchases through our email found on the "Purchasing a Trip" page.</p>
           </div>
+          <img src="ticket.png" width="22%" height="auto" style="position: absolute; left:8%; bottom:25%;"/>
         </div>
       </div>
       <div class="hidden" id="second">
@@ -145,11 +145,11 @@
   </div>
 
   <div style="text-align: center;right: 5%;margin: 0;position: absolute;top: 50%;transform: translateY(-50%);">
-    <button id="downB" onclick="uppress();"><img src="down.png" width="30px" height="auto" style="rotate: 270deg;"></button>
+    <button id="downB" onclick="uppress(); checkIfAtEnds();"><img src="down.png" width="30px" height="auto" style="rotate: 270deg;"></button>
   </div>
 
   <div style="text-align: center;; left: 5%;margin: 0;position: absolute;top: 50%;transform: translateY(-50%);">
-    <button id="upB" onclick="downpress();"><img src="down.png" width="30px" height="auto" style="rotate: 90deg;"></button>
+    <button id="upB" onclick="downpress(); checkIfAtEnds();"><img src="down.png" width="30px" height="auto" style="rotate: 90deg;"></button>
   </div>
 
 </body>

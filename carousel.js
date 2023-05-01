@@ -21,3 +21,16 @@ function uppress() {
     }
     return 0;
 }
+
+function checkIfAtEnds() {
+    if (currIndex == 0) {
+        document.getElementById("downB").style.opacity = 100;
+    }
+    else if (currIndex == cards.length-1) {
+        document.getElementById("upB").style.opacity = 100;
+    }
+    else {
+        document.getElementById("downB").style.opacity = 0;
+        document.getElementById("upB").style.opacity = 0;
+    }
+}
