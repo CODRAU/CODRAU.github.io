@@ -24,13 +24,13 @@ function uppress() {
 
 function checkIfAtEnds() {
     if (currIndex == 0) {
-        document.getElementById("downB").style.opacity = 100;
+        document.getElementById("downB").style.opacity = 0;
     }
     else if (currIndex == cards.length-1) {
-        document.getElementById("upB").style.opacity = 100;
+        document.getElementById("upB").style.opacity = 0;
     }
     else {
-        document.getElementById("downB").style.opacity = 0;
-        document.getElementById("upB").style.opacity = 0;
+        document.getElementById("downB").style.opacity = 100;
+        document.getElementById("upB").style.opacity = 100;
     }
 }
