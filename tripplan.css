@@ -164,6 +164,18 @@ nav {
     justify-content: center;  
 }
 
+#fourth {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh; 
+    width: 100%;
+    font-size: 6.25rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;  
+}
+
 #header1 {
     display:inline-block;
     overflow:hidden;
