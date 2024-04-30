@@ -82,7 +82,7 @@ nav {
 #aboutus h1 {
     text-align: center;
     color: black;
-    background: #B10D32;
+    background: #0fcc50;
 }
 
 #aboutus p {
@@ -94,7 +94,7 @@ nav {
     display:inline-block;
     overflow:hidden;
     white-space:nowrap;
-    background-color: #f6093e;
+    background-color: #0fcc50;
     height: fit-content;
     padding-left: 10px;
     padding-right: 10px;
